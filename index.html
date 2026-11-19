@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Profile Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <div class="img-box">
+      <img id="dog-img" src="" alt="Dog Image" />
+    </div>
+
+    <h2 id="Dogname">Loading...</h2>
+
+    <div id="info">
+      <p><strong>Breed Group:</strong> <span id="Breed-Group"></span></p>
+      <p><strong>Bred For:</strong> <span id="Bred-For"></span></p>
+      <p><strong>Life Span:</strong> <span id="Life-Span"></span></p>
+      <p><strong>Temperament:</strong> <span id="Temperament"></span></p>
+      <p><strong>Height:</strong> <span id="Height"></span></p>
+      <p><strong>Weight:</strong> <span id="weight"></span></p>
+    </div>
+
+    <button id="profile-btn">Get Random Dog</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
